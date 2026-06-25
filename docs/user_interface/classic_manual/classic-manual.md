@@ -13,10 +13,10 @@ import TabItem from '@theme/TabItem';
   <TabItem value="flow diagram" label="Flow Diagram" default>
     ![User Interface State and Flow Diagram](/img/UIFlowDiagramV7.svg)
   </TabItem>
-  <TabItem value="States" label="States">
+  <TabItem value="States only" label="States only">
     ![User Interface State and Flow Diagram](/img/UIFlowDiagramStatesV7.svg)
   </TabItem>
-  <TabItem value="Transitions" label="Transitions">
+  <TabItem value="Transitions only" label="Transitions only">
     ![User Interface State and Flow Diagram](/img/UIFlowDiagramTransitionsV7.svg)
   </TabItem>
 </Tabs>
@@ -30,7 +30,7 @@ import TabItem from '@theme/TabItem';
 
 :::tip
 
-"The beginning is the end. And the end is the beginning." - Dark
+"The beginning is the end. And the end is the beginning." - Dark (TV series)
 
 You may have to move forward first to "return" to a state.
 

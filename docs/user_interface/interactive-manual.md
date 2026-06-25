@@ -4,12 +4,26 @@ sidebar_position: 2
 description: "A fun and hands-on approach to get familiar with OpenValve"
 ---
 
-Good-to-know info before experimenting with the Interactive Manual:
 
-- The Interactive Manual intentionally has no "back" or "undo" button. This might seem frustrating at first, but it matches how the real device works: you only have that one button to interact with the device. However, you cannot get stuck in the UI. There is always a way to reach the state you want to be in. 
+The Interactive Manual is a browser-based version of the OpenValve user interface. It lets you explore the button interactions, LED patterns, settings, and state transitions without having the physical device in front of you.
 
-- The Opening Threshold you set is stored and affects how the virtual device behaves. In the "Show Soil Moisture" state, the configured Opening Threshold determines when the valve opens while using the slider to simulate the soil moisture sensor.
-- The Interactive Manual is not perfect yet. For example, the Additional Time setting currently has no practical effect on the virtual device. Also, in sleep mode, the device does not yet behave exactly like the real one. Error states and warnings are also not yet represented in the Interactive Manual.
+## Before you begin
 
- **[--> Open the Interactive Manual](https://ui.open-valve.com)**
+* The Interactive Manual intentionally has no **Back** or **Undo** button. This may feel limiting at first, but it reflects how the real device works: OpenValve has only one button, and every UI state can be reached through button presses. To reset the Interactive Manual completely, refresh the page.
+
+* The **Opening Threshold** and **Current Soil Moisture** settings affect how the virtual device behaves. For example, in the **Display Current Soil Moisture** state, changing the soil-moisture slider opens and closes the valve depending on the configured Opening Threshold.
+
+* The real OpenValve automatically returns to the **Sleep** state after one minute without a button press. This is called the UI timeout. The Interactive Manual does not use this timeout, so you can explore the interface without being interrupted.
+
+## Current limitations
+
+The Interactive Manual does not yet reproduce every behaviour of the real device.
+
+* The **Additional Time** setting currently has no practical effect.
+* Behaviour in sleep state does not yet match the real device.
+* Warnings and error states are not yet included.
+* The firmware version is not yet shown when turning OpenValve on from the **Off** state.
+
+**[Open the Interactive Manual →](https://ui.open-valve.com)**
+
 

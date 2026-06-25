@@ -17,10 +17,9 @@ The upper LED displays the battery status. The LED color gives a rough estimate 
 | Red blinking | Battery almost empty (< 7.5V) | Very little time remaining         |
 
 
-When the battery is completely empty, OpenValve switches to an [error state](./error-state) and will not water again until the battery has been replaced.
 
 :::warning
-If the battery becomes completely empty, OpenValve will stop watering until the battery is replaced.
+If the battery becomes completely empty, OpenValve OpenValve switches to an [error state](./error-state) and will stop watering until the battery is replaced.
 :::
 
 
