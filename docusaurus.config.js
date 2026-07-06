@@ -84,7 +84,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/OV_socialCard.JPG' ,
       colorMode: {
-        respectPrefersColorScheme: true,
+        //respectPrefersColorScheme: true, --> this was outcommented to disable the automatic switching between light and dark mode based on the system settings, as it was causing issues with the svg display.
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
       navbar: {
         logo: {
