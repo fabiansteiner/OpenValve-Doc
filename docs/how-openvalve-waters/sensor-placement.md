@@ -49,7 +49,7 @@ OpenValve must be able to detect that watering is working.
 
 If irrigation water never reaches the sensor, OpenValve cannot see the moisture increase and would keep the valve open for too long.
 
-As a safety measure, OpenValve automatically closes the valve if no increase in soil moisture is detected after **90 minutes**.
+As a safety measure, OpenValve automatically closes the valve if no increase in soil moisture is detected after **120 minutes**.
 
 If this happens, check whether:
 

@@ -21,6 +21,18 @@ The LEDs show the current UI state and display information such as
 * current soil moisture
 * current settings
 
+### The blue LED
+
+When OpenValve is awake (not in Sleep mode or OFF), the blue LED shows whether the valve is open or closed:
+
+| Blue LED | Meaning                         |
+| -------- | ------------------------------- |
+| On       | Valve open. Water can flow.     |
+| Off      | Valve closed. Water is stopped. |
+
+When OpenValve is in sleep mode, the blue LED is normally off but blinks briefly whenever OpenValve takes a new soil moisture measurement.
+
+
 ### LED pattern to show numbers
 
 Current soil moisture, Opening Threshold, Additional Time, and errors are represented by single-digit whole numbers. Because OpenValve only has LEDs and no display, these numbers are shown with a specific blinking pattern on the upper LED (either green, orange, or red).
