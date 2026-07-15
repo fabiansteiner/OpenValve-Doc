@@ -11,13 +11,13 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="flow diagram" label="Flow Diagram" default>
-    ![User Interface State and Flow Diagram](/img/UIFlowDiagramV7.svg)
+    ![User Interface State and Flow Diagram](/img/UIFlowDiagramV7.png)
   </TabItem>
   <TabItem value="States only" label="States only">
-    ![User Interface State and Flow Diagram](/img/UIFlowDiagramStatesV7.svg)
+    ![User Interface State and Flow Diagram](/img/UIFlowDiagramV7States.png)
   </TabItem>
   <TabItem value="Transitions only" label="Transitions only">
-    ![User Interface State and Flow Diagram](/img/UIFlowDiagramTransitionsV7.svg)
+    ![User Interface State and Flow Diagram](/img/UIFlowDiagramV7Transitions.png)
   </TabItem>
 </Tabs>
 

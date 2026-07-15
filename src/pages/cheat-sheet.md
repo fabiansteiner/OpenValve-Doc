@@ -1,1 +1,1 @@
-![User Interface State and Flow Diagram](/img/UIFlowDiagramV7.svg)
+![User Interface State and Flow Diagram](/img/UIFlowDiagramV7.png)
