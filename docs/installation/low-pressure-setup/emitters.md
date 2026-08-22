@@ -12,10 +12,24 @@ For example, if the water container is elevated by about **1 meter**, the availa
 
 At around **0.1 bar**, OpenValve's maximum flow rate is **6 liters per minute**. How many plants can be watered with this flow rate depends strongly on the emitters.
 
-For example:
+For example, if OpenValve provides approximately **6 L/min at 0.1 bar (1 m water head)**:
 
 * If each emitter outputs **1 liter per minute**, a maximum of **6 emitters** can be used.
 * If each emitter outputs **0.1 liters per minute**, a maximum of **60 emitters** can be used.
 * If each emitter outputs **0.01 liters per minute**, a maximum of **600 emitters** can be used.
 
-Because there are only few emitters available that work well with very low pressures, I designed an emitter specifically for this use case: [The Gravity Nozzle](https://www.printables.com/model/1755221-gravity-nozzle-a-low-pressure-irrigation-emitter). It fits common micro tubing sizes such as **1/4" hose** or **4 × 6 mm tubing**, is infinitely adjustable from 0-400ml/min at 0.1 bar, and can be easily 3D printed without supports.
+There is one important trade-off to keep in mind: the smaller the emitter outlet, the more susceptible it is to clogging, especially when using unfiltered rainwater that may contain dirt or algae. Very small emitters may therefore require an additional filter upstream.
+
+:::tip
+
+The smaller the emitters, the better the water must be filtered.
+
+:::
+
+### Gravity Nozzle
+
+Because there are only few emitters available that work well with very low pressures, I designed an emitter specifically for this use case: [The Gravity Nozzle](https://www.printables.com/model/1755221-gravity-nozzle-a-low-pressure-irrigation-emitter).
+
+It fits common micro tubing sizes such as 1/4" hose or 4 × 6 mm tubing, is infinitely adjustable from 0-400 ml/min at 0.1 bar, and can be easily 3D printed without supports.
+
+Its comparatively large adjustable outlet also makes it suitable for use with unfiltered rainwater, while still allowing the flow rate to be adjusted individually for plants with different watering needs.
